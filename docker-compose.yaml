@@ -1,0 +1,16 @@
+version: "3"
+
+services:
+  netstat:
+    build: netstat/
+    restart: always
+
+services:
+  ifconfig:
+    build: ifconfig/
+    restart: always
+
+services:
+  disk_spaces:
+    build: disk_spaces/
+    restart: always
